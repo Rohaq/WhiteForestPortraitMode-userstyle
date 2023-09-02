@@ -1,0 +1,37 @@
+/* ==UserStyle==
+@name           WhiteForest Portrait Mode Enabler
+@namespace      github.com/openstyles/stylus
+@version        1.1.0
+@homepageURL    https://userstyles.world/style/11433/
+@updateURL      https://raw.githubusercontent.com/Rohaq/WhiteForestPortraitMode-userstyle/main/userstyle.css
+@description    Portrait mode layout support for streamers with WhiteForest sites. Automatically changes on window shape. Domains picked from https://www.whitefore.st/kw/
+@author         Rohaq
+@license      ` MIT
+==/UserStyle== */
+@-moz-document domain("theserfs.tv"), domain("riverboat.gg"), domain("vaush.gg"), domain("demonmama.com"), domain("conure.cc"), domain("xanderhal.com"), domain("exiliaex.cc"), domain("sharky.cc"), domain("transgirltherapist.org"), domain("betaboy.tv"), domain("parafox.studio"), domain("loomism.com"), domain("e43.tv"), domain("luxander.net"), domain("keffals.gg"), domain("merrickdeville.com"), domain("cre8dnb.live"), domain("mythinpolitics.gg"), domain("eagleleft.com"), domain("dylanburns.tv") {
+  @media (orientation: portrait) {
+    body#bigscreen #bigscreen-layout.chat-right {
+      flex-direction: column;
+    }
+
+    body#bigscreen #bigscreen-layout.chat-left {
+      flex-direction: column-reverse;
+    }
+
+    body#bigscreen #stream-panel {
+      flex-direction: row;
+      width: 100%;
+    }
+
+    body#bigscreen #chat-panel {
+      flex-direction: row;
+      width: 100% !important;
+      min-height: 500px;
+      flex-grow: 1;
+    }
+
+    #chat-panel-resize-bar {
+      display: none;
+    }
+  }
+}
