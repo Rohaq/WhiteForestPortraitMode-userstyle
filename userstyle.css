@@ -9,7 +9,7 @@
 @author         Rohaq
 @license      ` MIT
 ==/UserStyle== */
-@-moz-document domain("theserfs.tv"), domain("riverboat.gg"), domain("vaush.gg"), domain("demonmama.com"), domain("conure.cc"), domain("xanderhal.com"), domain("exiliaex.cc"), domain("sharky.cc"), domain("transgirltherapist.org"), domain("betaboy.tv"), domain("parafox.studio"), domain("loomism.com"), domain("e43.tv"), domain("luxander.net"), domain("keffals.gg"), domain("merrickdeville.com"), domain("cre8dnb.live"), domain("mythicpolitics.gg"), domain("eagleleft.com"), domain("dylanburns.tv") {
+@-moz-document domain("theserfs.tv"), domain("socdoneleft.org"), domain("riverboat.gg"), domain("vaush.gg"), domain("demonmama.com"), domain("conure.cc"), domain("xanderhal.com"), domain("exiliaex.cc"), domain("sharky.cc"), domain("transgirltherapist.org"), domain("betaboy.tv"), domain("parafox.studio"), domain("loomism.com"), domain("e43.tv"), domain("luxander.net"), domain("keffals.gg"), domain("merrickdeville.com"), domain("cre8dnb.live"), domain("mythicpolitics.gg"), domain("eagleleft.com"), domain("dylanburns.tv") {
   @media (orientation: portrait) {
     body#bigscreen #bigscreen-layout.chat-right {
       flex-direction: column;
